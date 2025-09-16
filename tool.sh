@@ -101,7 +101,7 @@ case $choice in
 		;;
 	8)
 		echo "downloading ELARABYGBS"
-		git clone https://github.com/b7of/ELARABYGBS.git
+		git clone https://github.com/al3araby/ELARABYGBS.git
 		;;
 	9)
 		read -p "ENTER THE IP OR DOMAIN " IP
@@ -164,7 +164,7 @@ case $choice in
 	17)
 		echo "installing the tools ..."
 		sudo apt-get install figlet -y && sudo apt-get install lolcat -y
-		git clone https://github.com/xero/figlet-fonts && cd figlet-fonts && rm README.md && mv ANSI\ Shadow.flf ANSI_Shadow &&sudo mv * /usr/share/figlet 
+		git clone https://github.com/xero/figlet-fonts && cd figlet-fonts && rm README.md && mv ANSI\ Shadow.flf ANSI_Shadow.flf &&sudo mv * /usr/share/figlet 
 		;;
 	18)
 		echo "ADDING NAME TO YOUR TERMINAL"
